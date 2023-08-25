@@ -1,403 +1,275 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- Ícones -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
-
-    <!-- CSS -->
-    <link rel="stylesheet" href="assets/css/styles.css">
-
-    <title>Everson Chaves</title>
+    <title>Currículo do Lucas Nicotari</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/60349caa75.js" crossorigin="anonymous"></script>
 </head>
 
+
 <body>
-    <!-- Header -->
-    <header class="l-header" id="header">
-        <nav class="nav bd-container">
-            <a href="#" class="nav__logo">Chaves</a>
+    
+    <div class="parent">
 
-            <div class="div nav__menu" id="nav-menu">
-                <ul class="nav__list">
+        <div class="barra-lateral">
 
-                    <li class="nav__item">
-                        <a href="#home" class="nav__link active-link">
-                            <i class='bx bx-home-heart nav__icon'></i>
-                            Início
-                        </a>
-                    </li>
+                <div class= "img-barralateral"> 
+                    <img src="../Curriculo/LN/lucas.jpeg" />
+                        </div><!--imagem-barralateral-->
 
-                    <li class="nav__item">
-                        <a href="#profile" class="nav__link">
-                            <i class='bx bx-user nav__icon'></i>
-                            Perfil
-                        </a>
-                    </li>
+                        <Nav class="menu-parent">
+                            <ul class="menu">
+                                <ol><a href="#inicio-home">Início</a></ol>
+                                <ol><a href="#areas-home">Áreas de Interesse</a></ol>
+                                <ol><a href="#certificacoes-home">Certificações</a></ol>
+                                <ol><a href="#escolar-home">Formação Escolar</a></ol>
+                                <ol><a href="#profissional-home">Histórico Profissional</a></ol>
+                            </ul>
+                        </Nav>        
 
-                    <li class="nav__item">
-                        <a href="#education" class="nav__link">
-                            <i class='bx bx-book-open nav__icon'></i>
-                            Formação
-                        </a>
-                    </li>
+                        <div class="logo">
+                            <a href="https://www.linkedin.com/in/lucas-nicotari-2b5a34177/"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="https://www.instagram.com/lnicotari/"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://github.com/LucasNicotari"><i class="fa-brands fa-github-alt"></i></a>
+                        </div><!--logo-->
+            </div>            
+        </div><!--barralateral-->
 
-                    <li class="nav__item">
-                        <a href="#skills" class="nav__link">
-                            <i class='bx bx-receipt nav__icon'></i>
-                            Habilidades
-                        </a>
-                    </li>
-
-                    <li class="nav__item">
-                        <a href="#experience" class="nav__link">
-                            <i class='bx bx-briefcase-alt nav__icon'></i>
-                            Experiência
-                        </a>
-                    </li>
-
-                    <li class="nav__item">
-                        <a href="#certificates" class="nav__link">
-                            <i class='bx bx-award nav__icon'></i>
-                            Certificações
-                        </a>
-                    </li>
-
+        <div class="home" id="home-content">
+                
+            <section class="inicio" id="inicio-home">
+                <h2>Lucas Nicotari Maffei</h2>
+                <h3><i class="fa-brands fa-whatsapp"></i> (11) 99787-1056 • <span> <i class="fa-solid fa-envelope"></i> luca.maffei2@hotmail.com</span></h3>
+                <h4><i class="fa-solid fa-location-dot"></i> São Bernardo do Campo, São Paulo • 09781-350 </h4>               
+            </section>
+            
+            
+            <section class="areas" id="areas-home">
+                <ul class="box-areas" id="boxareas-home">
+                    <h2>Áreas de Interesse</h2>
+                    <li>Estágio na área de Tecnologia da Informação</li>
+                    <li>Suporte ao Cliente (Técnico)</li>
+                    <li>Desenvolvedor Web Junior</li>
+                    <li>Gestão de Projetos (PMDM/MDM)</li>
+                    <li>Analista de Qualidade Junior</li>
+                    <li>Trainee na área de Tecnologia da Informação</li>
                 </ul>
-            </div>
-
-            <div class="div nav__toggle" id="nav-toggle">
-                <i class='bx bx-grid-alt nav__icon'></i>
-            </div>
-        </nav>
-    </header>
-
-    <main class="l-main bd-container">
-        
-        <!-- Todos os elementos dessa div são para gerar o pdf -->
-        <div class="resume" id="area-cv">
-            <div class="resume__left">
-
-                <!-- Home -->
-                <section class="home" id="home">
-                    <div class="home__container section bd-grid">
-                        <div class="home__data bd-grid">
-                            <img src="assets/img/everson.jpg" alt="Imagem de perfil" class="home__img">
-
-                            <h1 class="home__title">
-                                <b>EVERSON</b> CHAVES
-                                <h3 class="home__profession">Professor</h3>
-                            </h1>
-                        </div>
-
-                        <div class="home_address bd-grid">
-                            <span class="home__information">
-                                <i class='bx bx-map-pin home__icon'></i>
-                                São Paulo, SP
-                            </span>
-                            <span class="home__information">
-                                <i class='bx bx-envelope home__icon'></i>
-                                eversonchavesk@gmail.com
-                            </span>
-                            <span class="home__information">
-                                <i class='bx bx-phone home__icon'></i>
-                                +55 (11) 95478-2719
-                            </span>
-                        </div>
-                    </div>
-                    <!-- Botão de tema light/dark -->
-                    <i class='bx bx-moon change-theme' title= "Tema claro/escuro" id= "theme-button"></i>
-
-                    <!-- Botão para gerar o pdf -->
-                    <i class='bx bx-download generate-pdf' title= "Baixar Currículo em PDF" id= "resume-button"></i>
-
-                </section>
-
-                <!-- Social -->
-                <section class="social section">
-                    <h2 class="section-title">SOCIAL</h2>
-
-                    <div class="social__container bd-grid">
-
-                        <a href="https://github.com/EversonCh" target= "_blank" class="social__link">
-                            <i class='bx bxl-github social__icon'></i>
-                            eversonch
-                        </a>
-
-                        <a href="https://www.linkedin.com/in/everson-chaves-844289195/" target= "_blank" class="social__link">
-                            <i class='bx bxl-linkedin-square social__icon'></i>
-                            everson-chaves
-                        </a>
-
-                        <a href="https://www.instagram.com/chaves_st/" target= "_blank" class="social__link">
-                            <i class='bx bxl-instagram social__icon'></i>
-                            @chaves_st
-                        </a>
-
-                    </div>
-                </section>
-
-                <!-- Perfil -->
-                <section class="profile section" id="profile">
-                    <h2 class="section-title">Perfil</h2>
-
-                    <p class="profile__description">
-                        Profissional de tecnologia, graduando em Ciência da Computação e Radiologia.Atualmente como professor e orientador socioeducativo.
-                    </p>
-                </section>
-
-                <!-- Educação -->
-                <section class="education section" id="education">
-                    <h2 class="section-title">Formação</h2>
-
-                    <div class="education__container bd-grid">
-                        <div class="education__content">
-                            <div class="education__time">
-                                <span class="education__rounder"></span>
-                                <span class="education__line"></span>
-                            </div>
-
-                            <div class="education__data bd-grid">
-                                <h3 class="education__title">Ciência da Computação</h3>
-                                <span class="education__studies">Cruzeiro do Sul</span>
-                                <span class="education__year">2020 - 2024</span>
-                            </div>
-                        </div>
-
-                        <div class="education__content">
-                            <div class="education__time">
-                                <span class="education__rounder"></span>
-                                <span class="education__line"></span>
-                            </div>
-
-                            <div class="education__data bd-grid">
-                                <h3 class="education__title">Radiologia</h3>
-                                <span class="education__studies">Unopar</span>
-                                <span class="education__year">2014 - 2016</span>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-
-                <!-- Habilidades -->
-                <section class="skills section" id="skills">
-                    <h2 class="section-title">Habilidades</h2>
-
-                    <div class="skills__content bd-grid">
-                        <ul class="skills__data">
-                            <li class="skills__name">
-                                <span class="skills__circle"></span>Web Designer
-                            </li>
-                            <li class="skills__name">
-                                <span class="skills__circle"></span>Marketing Digital
-                            </li>
-                            <li class="skills__name">
-                                <span class="skills__circle"></span>MySQL
-                            </li>
-                            <li class="skills__name">
-                                <span class="skills__circle"></span>Java
-                            </li>
-                            <li class="skills__name">
-                                <span class="skills__circle"></span>Design Thinking
-                            </li>
-                            <li class="skills__name">
-                                <span class="skills__circle"></span>Banco de dados
-                            </li>
-                        </ul>
-
-                        <ul class="skills__data">
-                            <li class="skills__name">
-                                <span class="skills__circle"></span>Fundamentos Web
-                            </li>
-                            <li class="skills__name">
-                                <span class="skills__circle"></span>HTML5, CSS3 e Bootstrap
-                            </li>
-                            <li class="skills__name">
-                                <span class="skills__circle"></span>Angular
-                            </li>
-                            <li class="skills__name">
-                                <span class="skills__circle"></span>Javascript e Typescript
-                            </li>
-                        </ul>
-                    </div>
-
-                    <!-- <h2 class="section-title">Soft Skills</h2>
-                    <div class="skills__content bd-grid">
-                        <ul class="skills__data">
-                            <li class="skills__name">
-                                <span class="skills__circle"></span>Trabalho em Equipe
-                            </li>
-                            <li class="skills__name">
-                                <span class="skills__circle"></span>Mentalidade de Crescimento
-                            </li>
-                            <li class="skills__name">
-                                <span class="skills__circle"></span>Orientação ao Futuro
-                            </li>
-                            <li class="skills__name">
-                                <span class="skills__circle"></span>Orientação ao Detalhe
-                            </li>
-                        </ul>
-                        <ul class="skills__data">
-                            <li class="skills__name">
-                                <span class="skills__circle"></span>Comunicação
-                            </li>
-                            <li class="skills__name">
-                                <span class="skills__circle"></span>Criatividade
-                            </li>
-                            <li class="skills__name">
-                                <span class="skills__circle"></span>Proatividade
-                            </li>
-                            <li class="skills__name">
-                                <span class="skills__circle"></span>Persistência
-                            </li>
-                        </ul>
-                    </div> -->
-                </div>
             </section>
 
-            <div class="resume__right">
-                <!-- Experiências -->
-                <section class="experience section" id="experience">
-                    <h2 class="section-title">Experiência</h2>
+            <section class="certificacoes" id="certificacoes-home">
 
-                    <div class="experience__container bd-grid">
+                <ul class="box-certificacoes" id="boxcertificacoes-home">
 
-                        <div class="experience__content">
-                                <div class="experience__time">
-                                    <span class="experience__rounder"></span>
-                                    <span class="experience__line"></span>
-                                </div>
-    
-                                <div class="experience__data bd-grid">
-                                    <h3 class="experience__title">Analista de Implantação</h3>
-                                    <span class="experience__company">Titan Software</span>
-                                    <p class="experience__description">Treinamento de software para clientes e parceiros. Instalação de PDV's, suporte e implantação.</p>
-                                </div>
+                    <h2>Certificações</h2>
+
+                    <h3>Idiomas</h3>
+                    <li>Inglês - Conversação: Básico • Leitura: Avançado</li>
+                    <li>Espanhol - Conversação: Básico • Leitura: Intermediário</li>
+
+                    <h4>Linguagens de Programação</h4>
+                    <li>Linguagem Pyhton - Básico</li>
+                    <li>Linguagem SQL - Básico</li>
+                    <li>Linguagem JavaScript - Básico</li>
+                    <li>Linguagem Java - Básico</li>
+                    <li>Linguagem Html - Intermediário</li>
+                    <li>Linguagem Css - Intermediário</li>
+                    <li>PHP - Básico</li>
+                    <li>MySql - Básico</li>
+
+                    <h5>Pacote Office</h5>
+                    <li>Microsoft Word - Avançado</li>
+                    <li>Microsoft Excel - Avançado</li>
+                    <li>Microsoft PowerPoint - Avançado</li>
+                    <li>Microsoft Outlook - Intermediário</li>
+                </ul> 
+
+            </section>
+
+            <section class="escolar" id="escolar-home">
+
+                <div class="box-escolar">
+
+                    <ul class="faculdade" id="faculdade-home">
+                        <h2>Faculdade</h2>
+                        <li>Senac - Analise e Desenvolvimento de Sistema (EAD) 3º Semestre - <b>Cursando</b></li>
+                    </ul>
+
+                    <ul class="programacao" id="programacao-home">
+                        <h2>Cursos de Linguagem de Programação (Udemy)</h2>                                       
+                        <li>Linguagem Python: Intermediário - <b>Cursando</b></li>
+                        <li>Linguagem SQL: Intermediário - <b>Cursando</b></li>
+                        <li>Linguagem JavaScript: Intermediário - <b>Cursando</b></li>
+                    </ul>
+
+                    <ul class="marcacao" id="marcacao-home">
+                        <h2>Cursos de Linguagem de Marcação (Udemy)</h2>
+                        <li>Linguagem Html - <b>Cursando</b></li>
+                        <li>Linguagem Css - <b>Cursando</b></li>
+                    </ul>
+                    
+                    <ul class="dados" id="dados-home">
+                        <h2>Cursos de Gestãos de Modelos de Dados (Stibo Systems)</h2>
+                        <li>Curso de Data Modeling</li><b>Concluído</b>
+                        <li>Curso de Fundamentals MDM</li><b>Concluído</b>
+                    </ul>    
+
+                    <ul class="extra" id="extra-home">
+                        <h2>Cursos Extracurriculares (Gerais)</h2>
+
+                        <li>Ensino Médio </li><b>Concluído</b>
+                        <li>Curso de Manutenção de Microcomputadores - SENAI</li><b>Concluído</b>
+                        <li>Curso de Excel - Udemy</li><b>Cursando</b>
+                        <li>Senac - Analise e Desenvolvimento de Sistema (EAD) 3º Semestre</li><b>Cursando</b>
+                        <li>Curso de Inglês - Junior Silveira </li><b>Concluído</b>
+                        <li>WordPress – Udemy</li><b>Cursando</b>
+                        <li>Habilitação para dirigir (Categoria B)</li><b>Concluído</b>
+                    </ul>
+
+                </div>
+
+            </section>
+
+            <section class="profissional" id="profissional-home">
+
+                <div class="slides-home">
+
+                    <input type="radio" nome="slide" id="historico-nav" checked>
+                    <input type="radio" nome="slide" id="atento-nav">
+                    <input type="radio" nome="slide" id="sodimac-nav">
+                    <input type="radio" nome="slide" id="dalcon-nav">
+                    <input type="radio" nome="slide" id="petz-nav">
+                    <input type="radio" nome="slide" id="voxxel-nav">
+
+                    <div class="slide s1">
+
+                        <img src="../Curriculo 2022/branco.jpg" alt="">
+
+                        <div class="text">
+                            <h2>Histórico Profissional</h2>
+                        </div>  
+
+                    </div>
+
+                    <div class="slide">
+
+                        <img src="../Curriculo 2022/branco.jpg" alt="branco-atento">
+
+                            <div class="text">
+                                <h2>Atento Brasil</h2>
+                                <p><b>Data de Início:</b> 03/2016</p><p><b>Data de Término:</b> 07/2016</p>
+                                <p><b>Cargo:</b> Suporte Técnico</p>
+                                <P><b>Descrição:</b> Meu primeiro emprego com experiência em suporte ao cliente, atuando com diversos 
+                                produtos (Vivo, Tim, Net), analisando as reclamações dos clientes, solucionando 
+                                problemas com questões financeiras e utilizando ferramentas para cancelamentos de 
+                                planos e faturas, também auxiliava minha supervisora com documentações, 
+                                papeladas, impressões e monitoramento do grupo. </P>
+                                <p><b>Motivo de Saída:</b> Pedido de demissão para novos objetivos profissionais. </p>
                             </div>
 
-                            <div class="experience__content">
-                            <div class="experience__time">
-                                <span class="experience__rounder"></span>
-                                <!-- <span class="experience__line"></span> -->
+                    </div>
+
+                    <div class="slide">
+
+                        <img src="../Curriculo 2022/branco.jpg" alt="branco-sodimac">
+
+                            <div class="text">
+                                <h2>Sodimac HomeCenter</h2>
+                                <p><b>Data de Início:</b> 09/2017</p><p><b>Data de Término:</b> 02/2018</p>
+                                <p><b>Cargo:</b> Vendedor</p>
+                                <P><b>Descrição:</b> No varejo na empresa Sodimac Home Center atuava na área de vendas de piso e 
+                                revestimentos, mas auxiliando também em outras áreas da loja, como a parte de 
+                                marcenaria e equipamentos de construção, entre outras. Fiz a montagem e a 
+                                manutenção da loja, como carregamento de pallet, construções de mostruários e na 
+                                limpeza em geral. </P>
+                                <p><b>Motivo de Saída:</b> Foi acordado um horário somente depois da minha contratação, 
+                                neste caso o horário proposto pela empresa, não conciliava com o da faculdade, 
+                                sendo assim infelizmente solicitei o desligamento.</p>
+                            </div>    
+                    </div>
+
+                    <div class="slide">
+
+                        <img src="../Curriculo 2022/branco.jpg" alt="branco-dalcon">
+
+                            <div class="text">
+                                <h2>Dalcon Brasil</h2>
+                                    <p><b>Data de Início:</b> 10/2018</p><p><b>Data de Término:</b> 12/2018</p>
+                                    <p><b>Cargo:</b> Auxiliar de Produção</p>
+                                    <P><b>Descrição:</b> Trabalhei na área de produção por 3 meses de contrato (sem renovação), realizando 
+                                    tarefas como montagem de peças e embalagem, limpeza geral e montagem de 
+                                    pedidos, tendo acesso aos produtos que chegavam e que iriam aos clientes, 
+                                    organizava e conferia as notas fiscais dos produtos enviados e recebidos, tinha como 
+                                    principal tarefa deixar o setor organizado e limpo para facilitar o trabalho. </P>
+                                    <p><b>Motivo de Saída:</b> Término do contrato.</p>
                             </div>
-
-                            <div class="experience__data bd-grid">
-                                <h3 class="experience__title">Professor</h3>
-                                <span class="experience__company">Giga Byte - Cursos profissionalizantes </span>
-                                <p class="experience__description">Ministro aulas para cursos de Cuidador de Idoso, Radiologia e Necropsia, disciplinas como Anatomia,Tecnicas Radiologicas,Fisiologia entre outras.</p>
-                            </div>
-                        </div>
                     </div>
-                </section>
 
-                <!-- Certificados -->
-                <section class="certificate section" id="certificates">
-                    <h2 class="section-title">Certificações</h2>
+                    <div class="slide">
 
-                    <div class="certificate__container bd-grid">
+                        <img src="../Curriculo 2022/branco.jpg" alt="branco-petz">
 
-                        <div class="certificate__content">
-                            <h3 class="certificate__title">Web Designer</h3>
-                            <p class="certificate__description">Udemy | Emitido em abr. de 2021</p>
-                        </div>
-
-                        <div class="certificate__content">
-                            <h3 class="certificate__title">Liderança e Gestão</h3>
-                            <p class="certificate__description">Unopar | Emitido em jan. de 2021</p>
-                        </div>
-
-                        <div class="certificate__content">
-                            <h3 class="certificate__title">Especialização Tomografia e Ressonância </h3>
-                            <p class="certificate__description">Cimas | Emitido em abr. de 2021</p>
-                        </div>
-
-                        <div class="certificate__content">
-                            <h3 class="certificate__title">Picture Archiving and Communication Systems - PACS e DICOM</h3>
-                            <p class="certificate__description">Udemy | Emitido em set. de 2021</p>
-                        </div>
-
-                        <div class="certificate__content">
-                            <h3 class="certificate__title">Gestão de Projetos</h3>
-                            <p class="certificate__description">Unopar | Emitido em fev. de 2021</p>
-                        </div>
-
-                        <div class="certificate__content">
-                            <h3 class="certificate__title">Fundamentos de UX</h3>
-                            <p class="certificate__description">Alura | Emitido em set. de 2021</p>
-                        </div>
+                            <div class="text">
+                                <h2>Petz - Pet Shop</h2>
+                                <p><b>Data de Início:</b> 11/2020</p><p><b>Data de Término:</b> 01/2021</p>
+                                <p><b>Cargo:</b>  Atendente de Loja
+                                </p>
+                                <P><b>Descrição:</b> Realizava vendas e recepcionava clientes, dando informações de preços, promoções, 
+                                    informações técnicas dos produtos, zelando pelo bom atendimento, eficácia e 
+                                    produtividade, realizava também os recebimentos das mercadorias e a conferência 
+                                    dos mesmos, através do programa Excel, realizei na empresa o estoque, limpeza e a 
+                                    organização do local.</P>
+                                <p><b>Motivo de Saída:</b> Sai por motivos pessoais, por conta do Covid-19, pelo aumento 
+                                    significativo do contagio do vírus e por ter muito contato com pessoas e produtos, 
+                                    tenho dois idosos que moram comigo, por isso decidi solicitar o desligamento e entrar 
+                                    em um acordo com a empresa.</p>
+                            </div>    
                     </div>
-                </section>
 
-                <!-- Linguagens -->
-                <section class="languages section">
-                    <h2 class="section-title">Idiomas</h2>
+                    <div class="slide">
 
-                    <div class="languages__container">
-                        <ul class="languages__content bd-grid">
-                            <li class="languages__name">
-                                <span class="languages__circle"></span>Português | Nativo
-                            </li>
-                            <li class="languages__name">
-                                <span class="languages__circle"></span>Espanhol | Intermediário
-                            </li>
-                        </ul>
-                    </div>
-                </section>
+                        <img src="../Curriculo 2022/branco.jpg" alt="branco-voxxel">
 
-                <!-- Interesses -->
-                <section class="interests section">
-                    <h2 class="section-title">Interesses</h2>
+                            <div class="text">
+                                <h2>Voxxel – Consultoria de Sistemas e Engenharia</h2>
+                                <p><b>Data de Início:</b> 07/2021</p><p><b>Data de Término:</b> 02/2022</p>
+                                <p><b>Cargo:</b> Estagiário de T.I</p>
+                                <P><b>Descrição:</b> Atuei com sistema B.I, utilizando softwares com tecnologias Analytics e Big Data, esse 
+                                    sistema era integrado com outros sistemas ERP e CRM. Realizei o processamento de 
+                                    dados, importações e exportações para ferramenta STEP afins de estruturar e 
+                                    sistematizar estes dados, a importação é feita através do Excel utilizando um template. 
+                                    Com a ferramenta eu tive acesso ao Workflow, onde eu mapeava todos os processos 
+                                    referentes ao projeto proposto e criava ou traduzia as Regras de Negócio a serem 
+                                    utilizadas nos processos da ferramenta STEP, com o uso da linguagem JavaScript.
+                                    Além disso, desenvolvi junto com a empresa a WBS e a SOW de um projeto da 
+                                    empresa COOP, com isso entendi como funciona o desenvolvimento e a gestão de um 
+                                    projeto PMDM, participei diretamente de diversos workshops e fiz as integrações dos 
+                                    projetos juntamente com a empresa e seus clientes.</P>
+                                <p><b>Motivo de Saída:</b> Infelizmente com problemas internos e financeiros a empresa 
+                                    estava realizando cortes, e acabei sendo demitido com outros profissionais.</p>
+                            </div> 
 
-                    <div class="interests__container bd-grid">
-                        <div class="interests__content">
-                            <i class='bx bx-library interests__icon'></i>
-                            <span class="interests__name">Literatura</span>
-                        </div>
+                </div><!--slide-home-->
 
-                        <div class="interests__content">
-                            <i class='bx bx-palette interests__icon'></i>
-                            <span class="interests__name">Arte</span>
-                        </div>
+                <div class="navegacao">
 
-                        <div class="interests__content">
-                            <i class='bx bx-album interests__icon'></i>
-                            <span class="interests__name">Música</span>
-                        </div>
+                    <label class="bar" for="historico-nav"></label>
+                    <label class="bar" for="atento-nav"></label>
+                    <label class="bar" for="sodimac-nav"></label>
+                    <label class="bar" for="dalcon-nav"></label>
+                    <label class="bar" for="petz-nav"></label>
+                    <label class="bar" for="voxxel-nav"></label>
+                    
+                </div><!--navegacao-->        
 
-                        <div class="interests__content">
-                            <i class='bx bx-movie interests__icon'></i>
-                            <span class="interests__name">Cinema</span>
-                        </div>
+            </section><!--profissional-->
+        
+        </div><!--home-->
 
-                        <div class="interests__content">
-                            <i class='bx bx-dice-3 interests__icon'></i>
-                            <span class="interests__name">RPG</span>
-                        </div>
+    </div><!--parent-->
 
-                        <div class="interests__content">
-                            <i class='bx bx-layout interests__icon'></i>
-                            <span class="interests__name">UI/UX</span>
-                        </div>
-                    </div>
-                </section>
-            </div>
-        </div>
-    </div>
-    </main>
 
-    <!-- Rolar a tela pra cima -->
-    <a href="#" class="scrolltop" id="scroll-top">
-        <i class='bx bx-chevron-up-circle scrolltop__icon'></i>
-    </a>
-
-    <!-- HTML/PDF -->
-    <script src="assets/js/html2pdf.bundle.min.js"></script>
-
-    <!-- Main JS -->
-    <script src="assets/js/main.js"></script>
 </body>
-
 </html>
